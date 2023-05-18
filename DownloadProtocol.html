@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="style/styleDownloadProtocol.css">
+
+<script async src="scriptDownloadProtocol.js"></script>
+
+<div class="main-content">
+    <img src="img/gazpromlogo.png" class="gazpromlogo">
+    <form id="myForm">
+        <div class="form-group">
+            <input type="file" accept=".pdf" class="btn file-input"
+                onchange="checkFileNotEmpty(this); checkFileNameNotEmpty(this);"></input>
+            <input type="submit" value="Загрузить" class="btn loading"
+            onclick="checkFileNotEmpty(document.querySelector('.file-input'))"></input>
+        </div>
+    </form>
+</div>
+
+

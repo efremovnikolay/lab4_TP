@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "chromedriver": "^113.0.0",
+    "selenium-webdriver": "^4.9.2"
+  }
+}

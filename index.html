@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script async src="script.js"></script>
+    <div class="container">
+        <div id="sidebar">
+            <ul class="menu-person">
+                <li class="person">
+                    <a href="Person.html" target="myFrame" id="home" class="block">
+                        <img src="img/person.png" width="40" height="40" class="btn-img">
+                        <span class="person-name">Оладжувон-Нгози И.И.</span>
+                        <span class="tooltip">Оладжувон-Нгози И.И.</span>
+                    </a>
+                    <a href="notifications.html" target="myFrame">
+                        <img src="img/bell.svg" width="30" height="30" class="btn-bell">
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li class="download-protocol">
+                    <a href="DownloadProtocol.html" target="myFrame" class="menu-link">
+                        <img src="img/download.svg" width="30" height="30" class="btn-download">
+                        <span class="menu-text-downloadProtocol">Загрузка протокола</span>
+                    </a>
+                </li>
+                <li class="errand">
+                    <a href="Errand.html" target="myFrame" class="menu-link">
+                        <img src="img/errand.svg" width="30" height="30" class="btn-errand">
+                        <span class="menu-text-errand">Поручения</span>
+                    </a>
+                </li>
+                <li class="report-protocol">
+                    <a href="ReportProtocol.html" target="myFrame" class="menu-link">
+                        <img src="img/generalReport.svg" width="30" height="30" class="btn-report-protocol">
+                        <span class="menu-text-reportProtocol">Отчёты по протоколам</span>
+                    </a>
+                </li>
+                <li class="feedback">
+                    <a href="Feedback.html" target="myFrame" class="menu-link">
+                        <img src="img/feedback.svg" width="30" height="30" class="btn-feedback">
+                        <span class="menu-text-feedback">Обратная связь</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <iframe class="main-content" name="myFrame" id="myFrame" frameborder="0"></iframe>
+    </div>
+</body>
